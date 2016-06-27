@@ -38,3 +38,24 @@ Assignment #1
 | F | T | F |         T          |</br>
 | F | F | T |         T          |</br>
 | F | F | F |         T          |</br>
+
+Week 2:
+</br>
++ I learned about compound propositions. there are the Tautology which is always true, Contradiction which is always false and Contingency which is nether true nor false.
++ I learned about the logical equivalence. there are the Identity Laws, Domination Laws, Indepotent Laws, Double negation Law, Commutative Law, Associative Law, Distributive Law, De Morgan's Law, Absorption Law and Negation Law. There are also logical equivalences involving condtional and biconditonal statements.
++ I learned about Quantifiers. There are the Universal quantifier which is "for all" where it is true if all are true and Exixtential quantifier which is "there exist" where it is true if there is one  true.
++ I learned about the Rules of Inference. There are Modus Ponens, Modus Tollens, Hypothetical Syllogism, Disjunctive Syllogism, Addition, Simplification, Conjunction and Resolution.
+</br></br>
+Assignment #2
+</br></br>
+1.5</br>
+ 7.Let T (x, y) mean that student x likes cuisine y, where the domain for x consists of all students at your school and the domain for y consists of all cuisines. Express each of these statements by a simple English sentence.
+</br></br>
+a. ¬T (Abdallah Hussein, Japanese) Answer: Abdalla Hussein does not like japanese cuisine
+</br></br>
+ 9.Let L(x, y) be the statement “x loves y,” where the domain for both x and y consists of all people in the world. Use quantifiers to express each of these statements.
+</br></br>
+b.Everybody loves somebody Answer:  ∀x∃yL(x,y)
+</br></br>
+i.Everyone loves himself or herself Answer: ∀xL(x,x)
+</br></br>
