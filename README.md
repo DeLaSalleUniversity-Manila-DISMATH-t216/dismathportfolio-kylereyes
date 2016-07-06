@@ -10,7 +10,8 @@ Week 1:
 + I learned that there is also a biconditional statement where the given p ↔ q. The statement can only be true if p → q are true and q → p are also true. both statements should be true for biconditional statement to be true.
 </br></br>
 Assignment #1
-</br></br>
+</br>
+1.1</br>
 33a. (p v q) → (p ⊕ q)
 </br>
 | p | q | (p v q) → (p ⊕ q) |</br>
@@ -47,15 +48,100 @@ Week 2:
 + I learned about the Rules of Inference. There are Modus Ponens, Modus Tollens, Hypothetical Syllogism, Disjunctive Syllogism, Addition, Simplification, Conjunction and Resolution.
 </br></br>
 Assignment #2
-</br></br>
+</br>
 1.5</br>
- 7.Let T (x, y) mean that student x likes cuisine y, where the domain for x consists of all students at your school and the domain for y consists of all cuisines. Express each of these statements by a simple English sentence.
-</br></br>
+ 7.Let T (x, y) mean that student x likes cuisine y, where the domain for x consists of all students at your school and the domain for y consists of all cuisines. Express each of these statements by a simple English sentence.</br>
 a. ¬T (Abdallah Hussein, Japanese) Answer: Abdalla Hussein does not like japanese cuisine
 </br></br>
- 9.Let L(x, y) be the statement “x loves y,” where the domain for both x and y consists of all people in the world. Use quantifiers to express each of these statements.
+ 9.Let L(x, y) be the statement “x loves y,” where the domain for both x and y consists of all people in the world. Use quantifiers to express each of these statements.</br>
+b.Everybody loves somebody Answer:  ∀x∃yL(x,y)</br>
+i.Everyone loves himself or herself Answer: ∀xL(x,x)</br></br>
+1.6</br>
+35.Determine whether this argument, taken from Kalish and Montague [KaMo64], is valid.</br>
+If Superman were able and willing to prevent evil,he would do so. If Superman were unable to prevent evil, he would be impotent; if he were unwilling to prevent evil, he would be malevolent. Superman does not prevent evil. If Superman exists, he is neither impotent nor malevolent. Therefore, Superman does not exist.</br></br>
+Let:</br>
+a - Superman is able</br>
+w - Superman is willing</br>
+p - Superman prevent evil</br>
+i - Superman is impotent</br>
+m - Superman is malevolent</br>
+e - Superman Exist</br>
+</br>
+(1) (a ∧ w) → p - If Superman were able and willing to prevent evil,he would do so</br>
+(2) ¬a → i - If Superman were unable to prevent evil, he would be impotent</br>
+(3) ¬w → m - if he were unwilling to prevent evil, he would be malevolent</br>
+(4) ¬p - Superman does not prevent evil</br>
+(5) e → (¬i ∧ ¬m) - If Superman exists, he is neither impotent nor malevolent</br>
+∴ ¬e - Superman does not exist</br></br>
+Soulution:</br>
+Modus Tollens of (4) and (1):</br>
+¬p</br>
+(a ∧ w) → p</br>
+∴ ¬(a ∧ w) (6)</br>
+De Morgan's Law and Commutative Law of (6):</br>
+¬(a ∧ w) ≡ ¬a ∨ ¬w ≡ ¬w ∨ ¬a (7)</br>
+Implication Equivalence of (3):</br>
+¬w → m ≡ w → m (8)</br>
+Resolution of (8) and (7) and Commutative Law (9):</br>
+w ∨ m</br>
+¬w ∨ ¬a</br>
+∴ m ∨ ¬a (9) ≡ ¬a ∨ m (10) </br>
+Implication Equivalence of (2):</br>
+¬a → i ≡ a ∨ i (11)</br>
+Resolution of (11) and (10):</br>
+a ∨ i</br>
+¬a ∨ m</br>
+∴ i ∨ m (12)</br>
+De Morgan's Law of (12):</br>
+i ∨ m ≡ ¬(i ∨ m) ≡ ¬i ∧ ¬m (13)</br>
+Modus Tollens of (13) and (5):</br>
+¬(¬i ∧ ¬m)</br>
+e → (¬i ∧ ¬m)</br>
+∴ ¬e - Superman does not exist</br>
+</br>
++ I learned about the rules of inference in quantified statements which are the Universam Instantiation, Universal generalization, Existential instantiation and Existential generalization.
++ We answered some exercises in the Rules of Inference.
 </br></br>
-b.Everybody loves somebody Answer:  ∀x∃yL(x,y)
-</br></br>
-i.Everyone loves himself or herself Answer: ∀xL(x,x)
-</br></br>
+Week 3:</br>
++ I learned about the kinds of proofs, there are the direct proof, proof by contraposition, vacuous proof, proof by contradiction and proof by equivalence.
++ I learned that in direct proof, assume the 1st statement to be true to prove the 2nd statement to be true
++ I learned that in proof by contradition, assume the NOT of the 2nd statement to be true to prove the NOT of the 1st statment to be true
++ We answered some exercises in Proofs</br></br>
+Assignment #3:</br>
+1.7</br>
+13.Prove that if x is irrational, then 1/x is irrational.</br>
+Let:</br>
+p - x is irrational</br>
+q - 1/x is irrational</br>
+p → q</br></br>
+Solution:</br>
+Proof by contraposition:</br>
+¬q - 1/x is rational</br>
+¬p - x is rational</br>
+1/x = a/b; x = b/a</b>
+subtitute to ¬p:</br>
+x = b/a ∴ rational</br></br>
+27.Prove that if n is a positive integer, then n is odd if and only if 5n + 6 is odd.</br>
+Let:</br>
+p - n is odd</br>
+q - 5n+6 is odd</br>
+p ↔ q</br></br>
+Solution:</br>
+prove p → q</br>
+Direct proof:</br>
+n = 2k+1</br>
+substitute to q:</br>
+5(2k+1)+6 = 10k+11 = 2(5k+5)+1 ∴ odd</br>
+prove q → p</br>
+Proof by contraposition:</br>
+¬p - n is even </br>
+¬q - 5n+6 is even</br>
+n = 2k</br>
+substitute to ¬q:</br>
+5(2k)+6 = 10k+6 = 2(5k+3) ∴ even</br></br>
+Assignment #4</br>
+1.8</br>
+15.Show that each of these statements can be used to express the fact that there is a unique element x such that P(x) is true.[Note that we can also write this statement as ∃!xP(x).] </br>
+a.∃x∀y(P(y) ↔ x = y)</br>
+b.∃xP(x) ∧ ∀x∀y(P(x) ∧ P(y) → x = y)</br>
+c.∃x(P(x) ∧ ∀y(P(y) → x = y))</br></br>
