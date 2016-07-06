@@ -101,8 +101,10 @@ e → (¬i ∧ ¬m)</br>
 </br>
 + I learned about the rules of inference in quantified statements which are the Universam Instantiation, Universal generalization, Existential instantiation and Existential generalization.
 + We answered some exercises in the Rules of Inference.
-</br></br>
+</br>
+</br>
 Week 3:</br>
+</br>
 + I learned about the kinds of proofs, there are the direct proof, proof by contraposition, vacuous proof, proof by contradiction and proof by equivalence.
 + I learned that in direct proof, assume the 1st statement to be true to prove the 2nd statement to be true
 + I learned that in proof by contradition, assume the NOT of the 2nd statement to be true to prove the NOT of the 1st statment to be true
