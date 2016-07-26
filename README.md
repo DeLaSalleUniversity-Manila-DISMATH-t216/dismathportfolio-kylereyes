@@ -147,3 +147,32 @@ Assignment #4</br>
 a.∃x∀y(P(y) ↔ x = y)</br>
 b.∃xP(x) ∧ ∀x∀y(P(x) ∧ P(y) → x = y)</br>
 c.∃x(P(x) ∧ ∀y(P(y) → x = y))</br></br>
+Week 4:</br></br>
++ I learned about the set. the set is an undored collection of objects called an element.
++ I learned about elements. the elements are the members of the set.
++ Examples of sets are set of natural numbers and set of integers
++ I learned about the empty set or null set. the empty or null set can be denoted by { } or  ∅.
++ I learned about the cardinality of a set. the cardinality of a set is denoted by |S|. the cardinality of a set can be determined if the elements of a set is a nonnegative integer.
++ I learned about the power set. the power set can be denoted by P(S). the power set is the set of all subset of the given set.
++ I learned about the cartesian product. the cartesian product is denoted by A x B. the cartesian product is the set of all the ordered pairs of set A and Set B.
+</br></br>
+Week 5:</br></br>
++ I learned about the functions.a function is an assignment of exaclty one element of one set to each element of the other set. the functions i sometimes called mappings or transformation.
++ I learned about the domain, codomain and range. the domain is the elements of the first set, the codomain is the elemnt of the second set. the range is the mapping of the first set to the second set.
++ There are three types of function. the one-to-one, the onto, and the one-to-one correspondence function.
++ The one-to-one function is also called injunction. a function is said to be injunction if the function of the first set has exactly one element of different element in the second set
++ The onto function is also called surjection. the function is said to be an onto function if and only if every element in the second set has an element in the first set.
++ The one-to-one correspondence is also called bijenction. the function is said to be bijective if the function is both one-to-one and onto function at the same time.</br></br>
+Assignment #5</br>
+2.3</br>
+11.Which functions in Exercise 10 are onto?</br>
+10.Determine whether each of these functions from {a,b,c,d} to itself is one-to-one.</br>
+a) f(a) = b, f(b) = a, f(c) = c, f(d) = d</br>
+b) f(a) = b, f(b) = b, f(c) = d, f(d) = c</br>
+c) f(a) = d, f(b) = b, f(c) = c, f(d) = d</br>
+Answer:</br>
+a) is both onto and one-to-one</br>
+b) is neither onto and one-to-one</br>
+c) is neither onto and one-to-one</br>
+∴ only a) is onto </br></br>
+
