@@ -176,3 +176,93 @@ b) is neither onto and one-to-one</br>
 c) is neither onto and one-to-one</br>
 ∴ only a) is onto </br></br>
 Week 6:</br></br>
++ I learned about the Algorithms. Algorithms is a finite sequence of precise instructions for performing a computation or for
+solving a problem.
++ I learned about the properties of Algorithms. T he properties are,</br></br>
+Input - has input values from a specified set.</br>
+Output - for each set of input values an algorithm produces output calues which is the solution to the problem.</br>
+Definiteness - steps of an algorithm must be defined precisely.</br>
+Correctness - the algorithm should produce the correct input values for each set of input values.</br>
+Finiteness - the algorithm should produce the desired output after a finite number of steps for any input.</br>
+Effectiveness - must perform each step of the algorithm exactly adn in a finite amount of time.</br>
+Generality - the procedure should be applicable to all problems of the desired form.</br></br>
++ there are 7 algorithms used as an example,Algorithm 1 is used to find the maximum element in a finite set.</br></br>
+procedure max(a1, a2,...,an: integers)</br>
+max := a1</br>
+for i := 2 to n</br>
+if max < ai then max := ai</br>
+return max{max is the largest element}</br></br>
++ Algorithm 2 is used to search for the location of an element using linear search.</br></br>
+procedure linear search(x: integer, a1, a2,...,an: distinct integers)</br>
+i := 1</br>
+while (i ≤ n and x = ai)</br>
+i := i + 1</br>
+if i ≤ n then location := i</br>
+else location := 0</br>
+return location{location is the subscript of the term that equals x, or is 0 if x is not found}</br></br>
++ Algorithm 3 is used to find the location of an element using binary search.</br></br>
+procedure binary search (x: integer, a1, a2,...,an: increasing integers)</br>
+i := 1{i is left endpoint of search interval}</br>
+j := n {j is right endpoint of search interval}</br>
+while i<j</br>
+m := [(i + j )/2] {brackets should be in floor function}</br>
+if x>am then i := m + 1</br>
+else j := m</br>
+if x = ai then location := i</br>
+else location := 0</br>
+return location{location is the subscript i of the term ai equal to x, or 0 if x is not found}</br></br>
++ Algorithm 4 is used to sort the elements using bubble sort.</br></br>
+procedure bubblesort(a1,...,an : real numbers with n ≥ 2)</br>
+for i := 1 to n − 1</br>
+for j := 1 to n − i</br>
+if aj > aj+1 then interchange aj and aj+1</br>
+{a1,...,an is in increasing order}</br></br>
++ Algorithm 5 is used to sort the elements using insertion sort.</br></br>
+procedure insertion sort(a1, a2,...,an: real numbers with n ≥ 2)</br>
+for j := 2 to n</br>
+i := 1</br>
+while aj > ai</br>
+i := i + 1</br>
+m := aj</br>
+for k := 0 to j − i − 1</br>
+aj−k := aj−k−1</br>
+ai := m</br>
+{a1,...,an is in increasing order}</br></br>
++ Algorithm 6 is a greedy algorithm finding the fewest coins possible.</br></br>
+procedure change(c1, c2,...,cr: values of denominations of coins, where
+c1 > c2 > ··· > cr; n: a positive integer)</br>
+for i := 1 to r</br>
+di := 0 {di counts the coins of denomination ci used}</br>
+while n ≥ ci</br>
+di := di + 1 {add a coin of denomination ci}</br>
+n := n − ci</br>
+{di is the number of coins of denomination ci in the change for i = 1, 2,...,r}</br></br>
++ Algorithm 7 is a greedy algorithm used for scheduling talks.</br></br>
+procedure schedule(s1 ≤ s2 ≤···≤ sn: start times of talks, e1 ≤ e2 ≤···≤ en: ending times of talks)</br>
+sort talks by finish time and reorder so that e1 ≤ e2 ≤ ... ≤ en</br>
+S := ∅</br>
+for j := 1 to n</br>
+if talk j is compatible with S then</br>
+S := S ∪ {talk j }</br>
+return S{S is the set of talks scheduled}</br></br>
++ We answered some excercises involving algorithms. I answered the question #9 in the excercies.</br></br>
+3.1</br>
+9.A palindrome is a string that reads the same forward and backward. Describe an algorithm for determining whether a string of n characters is a palindrome.</br>
+Solution:</br>
+procedure palindrome check(a(1),a(2), ..., a(n) in strings)</br>
+answer = true</br>
+for i = 1 to [n/2] {bracket should be in floor function}</br>
+if a(i) = a(n+1−i) then answer = false</br>
+return answer</br></br>
+Week 7: </br></br>
++ I learned about the Big-O Notation. The Big-O notation shows where the function is bounded on the upper side of the graph.
++ In the definition of the Big-O Notation. f(x) is O(g(x)) if there are constants C and k such that f(x) is less than or equal to C multiplied bt g(x) whenever x is greater than k.
++ Some functions can pass through their Big-O function once but there will be a time when the value of Big-O will be greater than the function and the function will never pass through the Big-O function.</br></br>
+Assignment #6:</br>
+3.2</br>
+13.Show that 2n is O(3^n) but that 3n is not O(2^n).</br>
+Solution:</br>
+Because 2^n ≤ 3^n for all n > 0, with witnesses C = 1, k = 0, 2^n is O(3^n). But in 3^n is O(2^n) at witnesses c = 2, k = 0, 2^n will be larger but as the value of k increases 3^n will become larger than 2^n even if it has a value equal to c. concluding that 3^n is not O(2^n)).</br></br>
+Week 8: </br></br>
++ I learned about the  time complexity of algorithms. the time complexity is the number of operations used in an algorithm. these can be either the number of comparisons of integers, the number of addition of integers, the number of subtraction of integers, the number of multiplication of integers and the number of division of integers.
++ I learned about the worst-case complexity and the average-case complexity. the worst case complexity is the larges number of operations needed to solve the given problem of an algorithm. the average-case complexoty is the average number of operations used to solve the given problem of an algorithm.
