@@ -265,4 +265,15 @@ Solution:</br>
 Because 2^n ≤ 3^n for all n > 0, with witnesses C = 1, k = 0, 2^n is O(3^n). But in 3^n is O(2^n) at witnesses c = 2, k = 0, 2^n will be larger but as the value of k increases 3^n will become larger than 2^n even if it has a value equal to c. concluding that 3^n is not O(2^n)).</br></br>
 Week 8: </br></br>
 + I learned about the  time complexity of algorithms. the time complexity is the number of operations used in an algorithm. these can be either the number of comparisons of integers, the number of addition of integers, the number of subtraction of integers, the number of multiplication of integers and the number of division of integers.
-+ I learned about the worst-case complexity and the average-case complexity. the worst case complexity is the larges number of operations needed to solve the given problem of an algorithm. the average-case complexoty is the average number of operations used to solve the given problem of an algorithm.
++ I learned about the worst-case complexity and the average-case complexity. the worst case complexity is the larges number of operations needed to solve the given problem of an algorithm. the average-case complexoty is the average number of operations used to solve the given problem of an algorithm.</br></br>
+Week 9: </br></br>
++ I learned about Graphs, Agraph is consists of set of vertices and set of edges with one or two vertices connected to its end point.
++ Vertices are the nodes of the graph and edges are the line connecting the vertices.
++ There are also two types of edges. the undirected edges and the directed edges. directed edges are edges with arrows to know if the edge is pointing out or pointing in. there are also edges that connect to tha same vertex called loop.
++ There are types of graphs.</br></br>
+Simple Graph - graph that has undirected edges.</br>
+Multigraph - graph that has multiple undirected edges.</br>
+Pseudograph - graph that has multiple undirected edges and loops.</br>
+Simple Directed Graph - graph that has directed edges.</br>
+Directed Multigraph - graph that has multiple directed edges and loops.</br>
+Mixed Graph - graph that has both undirected and directed edges and has loops.</br>
